@@ -25,14 +25,14 @@ const myValidations = {
 
 (async () => {
     // Validate a single property
-    const a = await eprop(myObject, myValidations, 'isMale')
+    const a = await vprops(myObject, myValidations, 'isMale')
     console.log(a.isValid) // true
 
     // Also can validate multiple properties
     console.log(b.areValid) // false
 
     // Validate all object properties
-    const b = await eprop(myObject, myValidations)
+    const b = await vprops(myObject, myValidations)
     console.log(b.areValid) // false
 
     // Check if some properties are valid
