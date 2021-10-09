@@ -9,7 +9,7 @@ npm i @reliutg/vprops
 
 ## Usage
 ```js
-import vprops from 'vprops'
+import { vprops } from '@reliutg/vprops'
 
 const myObject = {
     title: 'aaaa',

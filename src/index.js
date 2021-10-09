@@ -5,7 +5,7 @@
  * @param {String} [property] Property to check
  * @returns {Promise<{ isValid: boolean, areValid: boolean, someValid: boolean }>}
  */
-export async function vprops(obj, def, property = undefined) {
+export const vprops = async (obj, def, property = undefined) => {
     // Validate a single property
     const single = (obj, def, prop) => typeof obj[prop] === def[prop]
 
