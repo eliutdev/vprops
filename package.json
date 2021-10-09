@@ -1,5 +1,5 @@
 {
-  "name": "vprops",
+  "name": "@reliutg/vprops",
   "version": "0.1.1",
   "description": "Object property async validation",
   "main": "index.cjs",
