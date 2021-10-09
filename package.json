@@ -1,6 +1,6 @@
 {
   "name": "vprops",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Object property async validation",
   "main": "index.cjs",
   "module": "index.mjs",
