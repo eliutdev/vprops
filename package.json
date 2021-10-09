@@ -1,0 +1,33 @@
+{
+  "name": "vprops",
+  "version": "0.1.0",
+  "description": "Object property async validation",
+  "main": "index.cjs",
+  "module": "index.mjs",
+  "scripts": {
+    "build": "npm run build:cjs && npm run build:esm",
+    "build:cjs": "esbuild src/index.js --bundle --outfile=index.cjs --platform=node --minify",
+    "build:esm": "esbuild src/index.js --bundle --outfile=index.mjs --minify",
+    "prepare": "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "keywords": [
+    "object",
+    "util",
+    "validation"
+  ],
+  "author": "Eliut González (https://twitter.com/eliutgon)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eliutgon/vprops"
+  },
+  "bugs": {
+    "url": "https://github.com/eliutgon/vprops/issues"
+  },
+  "homepage": "https://github.com/eliutgon/vprops#readme",
+  "devDependencies": {
+    "esbuild": "^0.13.4"
+  }
+}
