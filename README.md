@@ -4,7 +4,7 @@ Object property async validation
 
 ## Installation
 ```bash
-npm install vprops
+npm i @reliutg/vprops
 ```
 
 ## Usage
