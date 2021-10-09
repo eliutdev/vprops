@@ -1,6 +1,6 @@
 # vprops
 
-Object property async validation
+Object property async type validation
 
 ## Installation
 ```bash
