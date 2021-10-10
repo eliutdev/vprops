@@ -8,7 +8,7 @@
     "build": "npm run build:cjs && npm run build:esm",
     "build:cjs": "esbuild src/index.js --bundle --outfile=index.cjs --platform=node --minify",
     "build:esm": "esbuild src/index.js --bundle --outfile=index.mjs --minify",
-    "prepare": "npm run build",
+    "prepare": "npm run build && husky install",
     "version": "git add -A src",
     "postversion": "git push && git push --tags"
   },
@@ -28,6 +28,13 @@
   },
   "homepage": "https://github.com/eliutgon/vprops#readme",
   "devDependencies": {
-    "esbuild": "^0.13.4"
+    "esbuild": "^0.13.4",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.2"
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "prettier --write"
+    ]
   }
 }
