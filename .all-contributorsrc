@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "rafaelaqueirozg",
+      "name": "Rafaela Queiroz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42815135?v=4",
+      "profile": "https://www.linkedin.com/in/rafaelaqueiroz21/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "vprops",
+  "projectOwner": "eliutgon",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
